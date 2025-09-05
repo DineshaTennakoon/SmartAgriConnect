@@ -22,21 +22,6 @@ ConstraintLayout - Efficient and flexible layouts
 Vector Drawables - Scalable icons and graphics
 CardView Elevation - Modern shadow effects
 
-🏗️ Architecture
-📦 ModernNav App
-├── 🎨 UI Layer
-│   ├── Activities (MainActivity)
-│   ├── Fragments (Dashboard, Scan, Alerts, Settings)
-│   └── Adapters & ViewHolders
-├── 🧠 Business Logic
-│   ├── ViewModels
-│   ├── Use Cases
-│   └── Repositories
-├── 💾 Data Layer
-│   ├── Local Database (Room)
-│   ├── Remote API (Retrofit)
-│   └── Data Sources
-└── 🔧 Utils & Extensions
 🚀 Getting Started
 Prerequisites
 Android Studio Arctic Fox or newer
@@ -83,59 +68,6 @@ androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 // UI Testing
 androidTestImplementation 'androidx.test:runner:1.5.2'
 androidTestImplementation 'androidx.test:rules:1.5.0'
-📁 Project Structure
-app/
-├── src/main/
-│   ├── java/com/yourpackage/
-│   │   ├── ui/
-│   │   │   ├── dashboard/
-│   │   │   │   ├── DashboardFragment.kt
-│   │   │   │   └── DashboardViewModel.kt
-│   │   │   ├── scan/
-│   │   │   │   ├── ScanFragment.kt
-│   │   │   │   └── ScanViewModel.kt
-│   │   │   ├── alerts/
-│   │   │   │   ├── AlertsFragment.kt
-│   │   │   │   └── AlertsViewModel.kt
-│   │   │   └── settings/
-│   │   │       ├── SettingsFragment.kt
-│   │   │       └── SettingsViewModel.kt
-│   │   ├── data/
-│   │   │   ├── repository/
-│   │   │   ├── local/
-│   │   │   └── remote/
-│   │   ├── domain/
-│   │   │   ├── model/
-│   │   │   ├── repository/
-│   │   │   └── usecase/
-│   │   └── MainActivity.kt
-│   └── res/
-│       ├── layout/
-│       │   ├── activity_main.xml
-│       │   ├── fragment_dashboard.xml
-│       │   ├── fragment_scan.xml
-│       │   ├── fragment_alerts.xml
-│       │   └── fragment_settings.xml
-│       ├── drawable/
-│       │   ├── ic_dashboard.xml
-│       │   ├── ic_scan.xml
-│       │   ├── ic_alerts.xml
-│       │   ├── ic_settings.xml
-│       │   ├── bottom_nav_background.xml
-│       │   └── shadow_top.xml
-│       ├── values/
-│       │   ├── colors.xml
-│       │   ├── strings.xml
-│       │   ├── styles.xml
-│       │   └── themes.xml
-│       ├── menu/
-│       │   └── bottom_navigation_menu.xml
-│       ├── navigation/
-│       │   └── nav_graph.xml
-│       └── color/
-│           └── bottom_nav_item_color.xml
-🎨 Design System
-Color Palette
 <!-- Primary Colors -->
 <color name="primary">#6366F1</color>        <!-- Indigo 500 -->
 <color name="secondary">#10B981</color>      <!-- Emerald 500 -->
