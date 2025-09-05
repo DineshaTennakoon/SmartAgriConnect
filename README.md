@@ -21,9 +21,7 @@ Fragment-based - Modular and maintainable code structure
 ConstraintLayout - Efficient and flexible layouts
 Vector Drawables - Scalable icons and graphics
 CardView Elevation - Modern shadow effects
-📱 Screenshots
-Dashboard	Scan	Alerts	Settings
-Dashboard	Scan	Alerts	Settings
+
 🏗️ Architecture
 📦 ModernNav App
 ├── 🎨 UI Layer
